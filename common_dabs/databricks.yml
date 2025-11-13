@@ -2,8 +2,12 @@
 bundle:
   name: "common_dabs"
 
+include:
+  - resources/*.yml
+
 sync:
-  include: libs/common/*.py
+  paths:
+    - common_dabs/libs/common
 
 
 targets:
